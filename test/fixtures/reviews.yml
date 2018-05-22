@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ​: MyString
+  rating: 
+  ​: MyString
+  description: 
+  reviewable: one
+  user: one
+
+two:
+  ​: MyString
+  rating: 
+  ​: MyString
+  description: 
+  reviewable: two
+  user: two
