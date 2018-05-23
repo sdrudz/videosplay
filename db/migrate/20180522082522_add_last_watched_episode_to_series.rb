@@ -1,5 +1,5 @@
 class AddLastWatchedEpisodeToSeries < ActiveRecord::Migration[5.2]
   def change
-    add_column :series, :last_watched_episode, :​references
+    add_reference :series, :last_watched_episode, foreign_key: { to_table: :movies }
   end
 end
